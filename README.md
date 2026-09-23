@@ -653,7 +653,7 @@ Recommended VPS providers: DigitalOcean · Vultr · Hetzner · OVH · AWS EC2 ·
 | RAM | 8 GB | 16 GB+ |
 | Storage | 100 GB SSD | 500 GB NVMe SSD |
 | Network | 100 Mbps, dedicated IP | 1 Gbps+, multiple IPs |
-| OS | Ubuntu 22.04 LTS | Ubuntu 22.04 LTS |
+| OS | Ubuntu 22.04 LTS | Ubuntu 22.04+ LTS |
 
 ### GPU Server — Deepfake Engine
 
@@ -669,7 +669,7 @@ The **Live Video Deepfake Engine** requires a dedicated GPU server for real-time
 | CPU | 8 cores | 16+ cores |
 | Storage | 200 GB NVMe | 500 GB+ NVMe |
 | CUDA | 11.8+ | 12.x |
-| OS | Ubuntu 22.04 | Ubuntu 22.04 |
+| OS | Ubuntu 22.04 | Ubuntu 22.04+ |
 
 </div>
 
@@ -681,7 +681,7 @@ EVILBOX provides a guided setup flow for teams and researchers who want to run o
 
 ```
 [1] Hardware provisioning recommendations
-[2] OS installation and hardening (Ubuntu 22.04 LTS)
+[2] OS installation and hardening (Ubuntu 22.04+ LTS)
 [3] Network configuration — static IP, port forwarding, firewall rules
 [4] DNS setup — pointing your domain to the on-prem server
 [5] SSL/TLS certificate provisioning
@@ -739,7 +739,7 @@ EVILBOX.7z  <── password-protected, available for download in this repositor
 | CPU | 4 cores | 8+ cores |
 | RAM | 8 GB DDR4 | 16 GB+ DDR4 |
 | Storage | 100 GB SSD | 500 GB NVMe SSD |
-| OS | Windows 10 / Ubuntu 22.04 / macOS | Ubuntu 22.04 LTS |
+| OS | Windows 10 / Ubuntu 22.04 / macOS | Ubuntu 22.04+ LTS |
 | Browser | Chrome 90+ / Firefox 88+ / Edge 90+ | Latest Chromium / Firefox |
 
 </div>
